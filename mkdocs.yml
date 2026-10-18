@@ -1,0 +1,36 @@
+site_name: Termless Lab
+site_description: Field notes from a Proxmox + OPNsense lab - builds, breakages and root causes
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle: {icon: material/weather-night, name: Dark mode}
+    - scheme: slate
+      toggle: {icon: material/weather-sunny, name: Light mode}
+markdown_extensions:
+  - tables
+  - admonition
+  - toc: {permalink: true}
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tasklist: {custom_checkbox: true}
+nav:
+  - Home: index.md
+  - As-built: as-built.md
+  - Debriefs:
+      - debriefs/index.md
+      - dnsmasq / Kea conflict: debriefs/debrief-dnsmasq-kea-port-conflict.md
+      - WireGuard ISP blocking: debriefs/debrief-wireguard-isp-blocking.md
+      - VLAN tag recurrence: debriefs/debrief-vlan-tag-recurrence.md
+      - netplan / NetworkManager: debriefs/debrief-netplan-networkmanager-renderer.md
+      - NetBird remote access: debriefs/debrief-netbird-remote-access.md
+  - Concept map: concept-map.md
+  - Roadmap: roadmap.md
+  - Debrief template: reference/debrief-template.md
+  - Screenshot guide: reference/screenshots.md

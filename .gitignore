@@ -1,0 +1,12 @@
+site/
+# Never commit secrets or raw configs
+*.ovpn
+*.key
+*.pem
+*.pfx
+*.kdbx
+config-*.xml
+*.env
+.env*
+**/setup-key*
+**/secrets*
