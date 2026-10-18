@@ -11,6 +11,7 @@ When you type `project alignments` followed by new labwork, practices, job descr
 2. I cross-reference it against everything already in this doc — flagging overlaps so we don't duplicate work already done
 3. I update this roadmap: new modules/add-ons get added, new job postings get their own alignment table, statuses get updated
 4. We move into implementing the next concrete piece of labwork, same working style as the MSP build
+5. **Update the Termless Lab GitHub repo:** fold new debriefs, as-built changes, concept-map entries and any attached screenshots into the repo (screenshots renamed, checked for sensitive details and embedded with captions), rebuild the site, and hand back the updated zip plus a list of changed files to upload. Keep `docs/roadmap.md` in the repo in sync with this file
 
 ---
 
@@ -39,6 +40,7 @@ This isn't a module or a project — it's the practice layer that should wrap ar
 | Concept Map Index | ✅ Built and populated — `lab-concept-map-index.md` (13 concepts logged across 5 debriefs; see the index for the list) |
 | Retroactive debrief of Part 1 MSP homelab work | 🟡 In progress — 5 done (dnsmasq/Kea port conflict; WireGuard ISP-blocking incident; **VLAN tag mismatch recurrence** covering DC01, client VM and netbird-router; **netplan/NetworkManager static-IP failure**; **NetBird remote access**) — 13 concepts logged. Next debrief: OPNsense GUI exposure / block-rule segmentation test (once the rule is verified). Remaining strong candidates: physical NO-CARRIER cable fault, OPNsense kernel-panic reinstall itself, Oracle Cloud free-tier capacity/region-quota blocker |
 | As-built record (current state of the lab) | 🟡 Drafted 2026-10-17 — `homelab-as-built.md`; known facts filled, blanks marked `(fill in)`. Update with every change; pairs with the git `homelab` repo from Part 6 and, later, the BookStack/Hudu SOP library from Part 9 |
+| Evidence capture (screenshots, start to now) | 🟡 Checklist written 2026-10-18 — `docs/reference/screenshot-checklist.md` (batches A-H). After the catch-up, every change is documented in the repo the same day |
 | Ongoing use for Part 2 modules going forward | 🔲 Not started |
 
 **Suggested next step:** debrief the VLAN-tag/DC-DHCP cascade next — it's a multi-layer incident (Proxmox hardware mistag → traceroute diagnosis → DC losing static IP back to DHCP) that will populate several new concepts and start producing the first Cross-Concept Connections entries once it's logged alongside the DHCP conflict debrief.
