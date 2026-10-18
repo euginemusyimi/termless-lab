@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/assets/logo.png" width="140" alt="Termless Solution logo"></p>
+
 # Termless Lab
 
 Documentation for a Proxmox + OPNsense homelab: as-built record, incident debriefs, concept map and roadmap.

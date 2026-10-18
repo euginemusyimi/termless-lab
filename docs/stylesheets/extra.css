@@ -1,0 +1,8 @@
+:root, [data-md-color-scheme="default"], [data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0d2d4d;
+  --md-primary-fg-color--light: #1c4a75;
+  --md-primary-fg-color--dark: #07192b;
+  --md-accent-fg-color: #5aa0d8;
+}
+.md-header__button.md-logo img { border-radius: 50%; height: 1.8rem; width: 1.8rem; }
+.home-logo { display:block; margin: 0 auto 1rem; width: 140px; border-radius: 50%; }

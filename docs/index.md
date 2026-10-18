@@ -1,3 +1,5 @@
+![Termless Solution logo](assets/logo.png){ .home-logo }
+
 # Termless Lab
 
 **Field notes from a Proxmox + OPNsense lab for MSP and systems administration work.**
